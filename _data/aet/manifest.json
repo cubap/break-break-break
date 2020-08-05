@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://cubap.github.io/break-break-break/aet/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "AET" ] },
+    "homepage": [
+      {
+        "id": "https://www.soundingtennyson.org/app.html#/manuscript/AET-MSS-5321-001",
+        "type": "Text",
+        "label": { "en": [ "Home page for AET" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://soundingtennyson.org",
+        "type": "Agent",
+        "label": { "en": [ "soundingtennyson.org" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://cubap.github.io/break-break-break/aet/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 107,
+        "items": [
+          {
+            "id": "https://cubap.github.io/break-break-break/aet/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://cubap.github.io/break-break-break/aet/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://www.soundingtennyson.org/media/audio/Break_Break_Break_AET.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                  "duration": 107
+                },
+                "target": "https://cubap.github.io/break-break-break/aet/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
